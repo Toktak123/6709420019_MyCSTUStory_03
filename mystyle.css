@@ -336,7 +336,7 @@ section{
 
 /* === My Future === */
 
-footer {
+footer, .bottom-footer{
     margin-top: 75px;
 
     width: 100%;
@@ -344,4 +344,9 @@ footer {
     background-color: rgb(47, 147, 255);
 
     clear: both;
+}
+
+.bottom-footer{
+    position: absolute;
+    bottom: 0;
 }
