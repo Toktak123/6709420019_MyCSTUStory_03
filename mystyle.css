@@ -102,8 +102,42 @@ section{
     background-color: rgb(242, 245, 246);
 
     width: 80%;
+    overflow: auto;
 }
 
+
+
+.title{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(108,157,255,1) 0%, rgba(75,193,255,1) 43%, rgb(49, 90, 255) 100%);
+    border-radius: 5px;
+
+    padding: 5px;
+
+    .title-info{
+        border-radius: 5px;
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+.title-info{
+    margin-top: auto;
+
+    width: 200px;
+	height: 50px;
+	background: #004271;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+/* === Index === */
 
 #name-image {
     padding: 10px;
@@ -141,22 +175,6 @@ section{
 }
 
 
-
-
-.title-info{
-    margin-top: auto;
-
-    width: 200px;
-	height: 50px;
-	background: #004271;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: white;
-}
-
 .info-button{
     position: relative;
     width: 100%;
@@ -179,6 +197,7 @@ section{
 
         color: white;
         font-size: 16px;
+        text-align: left;
     }
 
     transition: 0.25s ease;
@@ -251,12 +270,78 @@ section{
     }
 }
 
+/* === My Journey === */
 
+#journey-timeline h2{
+    margin: 0;
+}
+
+#timeline-line {
+    height: 480px;
+    width: 5px;
+
+    margin-left: 25px;
+    background-color: #004271;
+    float: left;
+}
+
+#timeline-box{
+    margin-top: 20px;
+    width: 90%;
+    height: 100px;
+
+    background-color: #8ab1ff49;
+    float: left;
+
+    display: flex;
+    
+
+    p{
+        float: left;
+
+        height: 75%;
+        width: 80%;
+
+        margin: auto;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 1%;
+        padding-bottom: 1%;
+
+        display: flex;
+        align-items: center;
+    }
+}
+
+#timeline-year{
+    border-radius: 100%;
+    
+    position: relative;
+    right: 30px;
+    height: 70px;
+    width: 70px;
+    margin-top: 15px;
+
+    color: white;
+    background-color: #004271;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    float: left;
+}
+
+/* === My Future === */
 
 footer {
-    margin-top: 30px;
+    margin-top: 75px;
 
     width: 100%;
     height: 45px;
     background-color: rgb(47, 147, 255);
+
+    clear: both;
 }
