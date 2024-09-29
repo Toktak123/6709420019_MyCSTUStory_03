@@ -65,7 +65,7 @@ header{
     margin: 0 10px;
 
     font-size: 18px;
-    transition: 0.25s ease;
+    transition: 0.3s ease;
 
 }
 
@@ -73,16 +73,20 @@ header{
 #green{
     color: rgb(190, 255, 186);
 
-    transition: 0.25s ease;
+    transition: 0.3s ease;
 }
 
 
 .link-button:hover, #green:hover{
-    color: rgb(0, 41, 165);
+    color: rgb(0, 13, 151);
 
-    transition: 0.25s ease;
+    transition: 0.3s ease;
 }
 
+.link-button:active, #green:active{
+    font-size: 19px;
+    transition: 0.15s ease;
+}
 
 
 section{
@@ -141,13 +145,12 @@ section{
 #name-image {
     padding: 10px;
     background-color: #eff7f8;
-
+   
     table{
         margin-left: auto;
         margin-right: auto;
 
         width: 100%;
-
 
         text-align: center;
 
@@ -328,6 +331,7 @@ section{
 
 
     p{
+        color: #005b85;
         float: left;
 
         height: 75%;
@@ -371,6 +375,8 @@ section{
             display: flex;
             justify-content: center;
             align-items: center;
+
+            font-size: 18px;
         }
     }
 }
