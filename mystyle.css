@@ -140,6 +140,73 @@ section{
     border: #0091df solid 3px;
 }
 
+/* Tab */
+@media (max-width: 1600px) {
+    .header-icon{
+
+
+        img {
+            font-size: large;
+        }
+        
+        h1{
+            font-size: larger;
+        }
+    }
+
+
+    .link-button{
+        font-size: large;
+    }
+
+}
+
+/* Phone */
+@media (max-width: 700px) {
+    .header-icon{
+
+        img {
+            font-size: medium;
+        }
+
+        
+        h1{
+            font-size: large;
+        }
+    }
+
+
+    .link-button{
+        font-size: medium;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+
+    .link-button{
+        font-size: small;
+
+        margin: 0 5px;
+    }
+
+
+    .header-icon{
+        width: 120px;
+        margin-left: 10px;
+
+        img {
+            display: none;
+        }
+    }
+
+    .header-menu{
+        margin-right: 10px;
+    }
+}
+
+
 /* === Index === */
 
 #name-image {
