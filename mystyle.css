@@ -89,6 +89,8 @@ header{
 }
 
 
+
+
 section{
     box-shadow: 11px 13px 20px -9px rgba(0,0,0,0.36);
 
@@ -180,6 +182,9 @@ section{
         font-size: medium;
     }
 
+    .link-button:active, #green:active{
+        font-size: medium;
+    }
 }
 
 @media (max-width: 500px) {
@@ -191,6 +196,9 @@ section{
         margin: 0 5px;
     }
 
+    .link-button:active, #green:active{
+        font-size: small;
+    }
 
     .header-icon{
         width: 120px;
@@ -204,6 +212,8 @@ section{
     .header-menu{
         margin-right: 10px;
     }
+
+    
 }
 
 
