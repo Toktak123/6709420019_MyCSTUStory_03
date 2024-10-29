@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="media.css">
     <title>Home</title>
 </head>
 <body>
@@ -23,14 +24,14 @@
 
 
     <section id="name-image">
-        <table>
-            <tr>
-                <th>
-                    <img src="./resources/my_image.jpg" alt="my-image">
-                </th>
-                <th id="name"><h2 class="title-info">กันต์ธร ยืนยงชัยวัฒน์ (ท้อกแท้ก)</h2></th>
-            </tr>
-        </table> 
+        <div class="name-image-grid">
+            <div class="grid-child"><img src="./resources/my_image.jpg" alt="my-image"></div>
+            <div class="grid-child">
+                <h2 class="title-info">
+                    กันต์ธร ยืนยงชัยวัฒน์&nbsp;<span>(ท้อกแท้ก)</span>
+                </h2>
+            </div>
+        </div>
     </section>
 
     <section id="about-me">
