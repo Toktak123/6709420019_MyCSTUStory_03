@@ -336,6 +336,8 @@ section{
     margin-left: 25px;
     background-color: #004271;
     float: left;
+
+    position: relative;
 }
 
 #timeline-box{
@@ -358,7 +360,7 @@ section{
 
         margin: auto;
         margin-left: 0;
-        margin-right: 0;
+        margin-right: 10px;
         padding-top: 1%;
         padding-bottom: 1%;
 

@@ -27,6 +27,8 @@
         font-size: 16px;
         text-align: left;
     }
+
+    /* Journey */
 }
 
 /* Phone/Tab */
@@ -40,7 +42,6 @@
         img {
             font-size: medium;
         }
-
         
         h1{
             font-size: large;
@@ -126,6 +127,20 @@
     #video{
         width: 75%;
     }
+
+
+    /* journey */
+    #journey-timeline{
+        width: 75%;
+
+        img{
+            width: 70px;
+        }
+
+        p{
+            font-size: small;
+        }
+    }
 }
 
 /* Phone */
@@ -185,4 +200,20 @@
             padding: 0;
         }
     }
+
+    /* journey */
+
+    #timeline-line{
+        margin-left: 15px;
+    }
+
+    #journey-timeline{
+        width: 70%;
+
+        img{
+        width: 50px;
+        left: 78%;
+        }
+    }
+
 }
