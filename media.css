@@ -29,6 +29,8 @@
     }
 
     /* Journey */
+
+    
 }
 
 /* Phone/Tab */
@@ -141,6 +143,20 @@
             font-size: small;
         }
     }
+
+    /* Future */
+    #future{
+        flex-direction: column;
+
+        div{
+            width: 250px;
+        }
+
+        p{
+            font-size: small;
+            width: 60%;
+        }
+    }
 }
 
 /* Phone */
@@ -213,6 +229,19 @@
         img{
         width: 50px;
         left: 78%;
+        }
+    }
+
+    /* future */
+    #future{
+        width: 70%;
+        div{
+            width: 200px;
+            padding: 0;
+        }
+
+        p{
+            width: 75%;
         }
     }
 
